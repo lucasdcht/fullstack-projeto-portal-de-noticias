@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* COLORS */
+  /* brand */
+  --brand-color-light: #60A5FA;
+  --brand-color-dark: #1D4ED8;
+  /* base */
+  --bg-color: #0F172A;
+  --stroke-color: #1E293B;
+  /* text */
+  --text-primary-color: #f1f5f9;
+  --text-secondary-color: #CBD5E1;
+
+}
+
+body{
+  color: var(--text-primary-color);
+  background-color: var(--bg-color);
+}
